@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Start of Megan's Custom Styles*/
+
+body {
+	background-color: white;
+	font-family:  "PT Sans";
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	margin: auto;
+	text-shadow: 0 1px 1px #1e2835;
+	padding-top: 70px;
+}
+.top-navigation
+ {	
+ 	background-color:#262626;
+ 	width:100%;
+ 	height:60px;
+ 	box-shadow: 0px 1px 50px #5E5E5E;
+ 	position:fixed;
+ 	top:0px;
+ 	padding-top: 20px;
+ 	padding-bottom: 10px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+}
+.wrapper {
+	max-width: 20 auto;
+	margin: auto;
+}
+.top-navigation {
+	font-family:  "PT Sans",sans-serif;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+.lead, h1 {
+	font-family: "Roboto";
+	font-size: 50px;
+
+}
+.links li {
+	list-style-type: none;
+	float: right; margin-right: 30px;
+}
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+
+}
+.cases h2 {
+	font-size: 20px;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+/*
+*Introduction Section*/
+.description {
+	background-image: url("IMG_0328.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+.description h2, h3 {
+	margin-top: 1.25 rem;
+	outline: 80 px;
+}
+
+.description h3 {
+	font-family: "Roboto";
+	font-size: 50px;}
+
+.description {
+	font-family: sans-serif;
+	font-size: 50px;
+	line-height: 60px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+	margin-top: 50 rem;
+	margin: 10px 0 31px 0;
+	padding-top: 50px;
+	font-weight: 70;
+	font-style: normal;
+	text-shadow: black 0.1 em 0.2 em 0.1em;
+}
+.entry-content {
+	margin: 0 0 40px;
+	color: black;
+	font-family: "Verdana";
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+    vertical-align: baseline;
+    font-size: 50px;
+
+}
+
+</body>
+</html>
+
